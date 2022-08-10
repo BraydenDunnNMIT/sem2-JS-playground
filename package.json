@@ -1,0 +1,20 @@
+{
+  "name": "sem2-js-playground",
+  "version": "1.0.0",
+  "description": "Semester two javascript playground -Brayden Dunn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraydenDunnNMIT/sem2-JS-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraydenDunnNMIT/sem2-JS-playground/issues"
+  },
+  "homepage": "https://github.com/BraydenDunnNMIT/sem2-JS-playground#readme"
+}
