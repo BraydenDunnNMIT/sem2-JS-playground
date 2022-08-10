@@ -25,7 +25,12 @@ nav{
     width:200px;
     height:100px;
 }
-
+.container {
+    padding: 15px;
+    margin: 0;
+    max-width: 100%;
+    width: 100px;
+}
 nav.logo{
     padding: 30px;
     text-align: center;
@@ -47,3 +52,80 @@ nav ul li {
     border-bottom: 2px solid rgba(red, green, blue, alpha);
     padding: 20px;
 }
+
+nav ul li:first-of-type {
+    border-top: 2px solid rgba(red, green, blue, alpha);
+}
+nav ul li a {
+    color:burlywood;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: black;
+    color: white;
+    font-size: 130%;
+    position: relative;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 30px;
+}
+
+button, input[type='submit'] {
+    background-color: palevioletred;
+    border: 0;
+    border-radius: 5px;
+    color: aquamarine;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+/*
+.modal-container {
+background-color: palevioletred;
+display: none;
+position: fixed;
+top: 0%;
+right: 0%;
+bottom: 0%;
+left: 0%;
+}
+
+.modal {
+    background-color: wheat;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+}
+
+.modal-header {
+    background-color: wheat;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.modal-header h3 {
+    margin: 0px;
+    border-bottom: 1px solid black;
+}
+.modal-content {
+    padding: 20px;
+}
+
+.modal-form div {
+    margin: 10px;
+}
+*/ 
